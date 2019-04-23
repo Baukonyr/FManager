@@ -1,0 +1,20 @@
+{
+    "name": "alex/alex",
+    "description": "Hello",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Baukonyr",
+            "email": "alexjobe@ukr.net"
+        }
+    ],
+		
+		"autoload": {
+			"classmap": [
+				"Router/router.php"
+			],
+      "psr-4": {
+				"App\\Controller\\": "App/Controllers/"
+			}
+    }
+}
